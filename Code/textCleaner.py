@@ -45,6 +45,7 @@ def filter_results(clean_result, test_image, levenshtein_threshold):
                     break
             if(append_flag == False):
                 break
+    return final_result
 
 def text_cleaner(final_result_dict, csvFile_data_path, farma_threshold, word_threshold, levenshtein_threshold):
     
